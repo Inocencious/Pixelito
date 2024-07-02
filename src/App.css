@@ -1,0 +1,91 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body{
+  background-color: #252525;
+  margin-top: 0;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc; 
+  border-radius: 20px;
+
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 20px; 
+  height: 20px; 
+  border: 1px solid #ccc; 
+
+}
+
+.tools {
+  position: relative;
+}
+
+.color-picker {
+  position: absolute;
+  top: 0px;
+  left: 50px;
+  z-index: 10;
+}
+
+.tools {
+  position: fixed;
+  left: 5%;
+  height: 525px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  z-index: 10;
+  align-items: center;
+  justify-content: center;
+}
+
+.tools ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 100%;
+  
+}
+
+.tools li {
+ 
+  margin: 10px;
+  height: 100%;
+  cursor: pointer;
+}
+
+
+.tools li svg {
+  display: block;
+  margin: auto;
+  width: 24px;
+  height: 24px;
+}
+
+.tool-button path{
+  fill: grey;
+  cursor: pointer;
+}
+
+.tool-button.active path{
+  fill: #252525;
+}
+
+.title{
+  margin-top: 0;
+  color: white;
+}
