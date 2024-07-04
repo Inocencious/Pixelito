@@ -16,6 +16,6 @@ Pixelito has everything you need to create stunning pixel masterpieces.
 
 ### 🚀 Tech Stack
 
-* Made with **React**
+* Made with **React + Vite**
 * Deployed with **Github Pages**
 
