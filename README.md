@@ -1,8 +1,21 @@
-# React + Vite
+## 🎨 **Pixelito - A Pixel Art Maker**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pixelito has everything you need to create stunning pixel masterpieces.
 
-Currently, two official plugins are available:
+### ✨ **Features**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* 🎨 **Color Picker & Palette**: Choose from a spectrum of colors or input your own hex and RGB codes. Your recent colors are always at your fingertips!
+
+* 🖌️ **Paint & Erase**: Use the paintbrush to bring your pixels to life or the eraser to perfect your creation.
+  
+* 📏 **Customizable Grid**: Adjust the number of rows and columns to suit your artwork's needs. Your canvas, your rules!
+  
+* 🖼️ **Save Your Art**: Export your pixel art as a PNG and share it with the world.
+  
+* 🔲 **Toggle Grid Lines**: Show or hide grid lines for a clearer view of your art.
+
+### 🚀 Tech Stack
+
+* Made with **React + Vite**
+* Deployed with **Github Pages**
+
