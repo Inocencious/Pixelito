@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
+import ColorPicker from './ColorPicker';
 
 const CanvasSizePopup = ({ isOpen, closeModal, handleGridSizeChange }) => {
   const [sliderValue, setSliderValue] = useState(16);
@@ -29,6 +30,7 @@ const CanvasSizePopup = ({ isOpen, closeModal, handleGridSizeChange }) => {
       borderRadius: '8px',
       backgroundColor: '#fff',
       boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+      color: 'black',
     },
     overlay: {
       backgroundColor: 'rgba(0, 0, 0, 0.3)',

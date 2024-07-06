@@ -232,7 +232,6 @@ const Grid = ({ rows, cols }) => {
         recentColors={recentColors} 
         selectedTool={selectedTool} 
         setSelectedTool={setSelectedTool} 
-        handleOpenModal={handleOpenModal} 
       />
       <div className="grid">
         <canvas

@@ -10,17 +10,17 @@ const ColorPicker = ({ currentColor, handleColorChange, recentColors }) => {
 
     if (updatedColor.hex !== 'transparent' && !recentColors.includes(updatedColor.hex)) {
       const updatedRecentColors = [updatedColor.hex, ...recentColors.slice(0, 5)];
-      handleRecentColors(updatedRecentColors); 
+      handleRecentColors(updatedRecentColors);
     }
   };
 
   return (
-    <SketchPicker
-      color={color}
-      onChange={handleChange}
-      disableAlpha={true}
-      presetColors={recentColors}
-    />
+      <SketchPicker
+        color={color}
+        onChange={handleChange}
+        disableAlpha={true}
+        presetColors={recentColors}
+      />
   );
 };
 
